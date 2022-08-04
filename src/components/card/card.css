@@ -1,0 +1,14 @@
+.card{
+    display: inline-block;
+    margin: 1%;
+    width: 48%;
+}
+.container{
+    margin-top: 3%;
+}
+.container h3{
+    text-align: left;
+}
+.card img {
+    height: 15rem;
+}

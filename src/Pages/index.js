@@ -1,0 +1,5 @@
+export * from "./mainPage"
+export * from "./course"
+export * from "./about"
+export * from "./blog"
+export * from "./contact"
