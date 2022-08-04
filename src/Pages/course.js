@@ -10,14 +10,20 @@ export function CoursesPage() {
     })
     return (
         <>
-            {data.sort((a, b) => a - b).map((item,index) => {
+            {data.sort((a, b) => a - b).map((item, index) => {
                 return (
                     <div className="card" key={index}>
                         <img src={item.imageUrl} className="card-img-top" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">{item.name}</h5>
                             <p className="card-text">{item.messege}</p>
-                            <button href="#" className="btn btn-primary" onClick={()=> {
-                                
+                            <button href="#" className="btn btn-primary" onClick={(e) => {
+                                console.log(e)
                             }}>Add the lesson</button>
-                        </div>
+                        </div>
+                    </div>
+                )
+            })}
+        </>
+    )
+}
